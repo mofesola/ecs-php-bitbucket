@@ -2,7 +2,7 @@ FROM php:7.1.7-fpm
 LABEL MAINTAINER Mofesola Babalola <me@mofesola.com>
 
 RUN apt-get update && apt-get install -y software-properties-common
-RUN apt-get install -y gettext-base python2.7 python-pip rsync
+RUN apt-get install -y gettext-base python2.7 python-pip rsync openssh-server openssh-client
 RUN mkdir -p ~/.aws
 
 RUN pip install --user awscli ecs-deploy
