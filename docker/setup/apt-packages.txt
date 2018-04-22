@@ -1,0 +1,12 @@
+curl
+gettext-base
+git
+zip
+netcat
+openssl
+cron
+python2.7
+python-pip
+rsync
+openssh-server
+openssh-client
